@@ -1,0 +1,29 @@
+<h1>Listing crew_classes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Class desc</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @crew_classes.each do |crew_class| %>
+      <tr>
+        <td><%= crew_class.item_id %></td>
+        <td><%= crew_class.class_desc %></td>
+        <td><%= link_to 'Show', crew_class %></td>
+        <td><%= link_to 'Edit', edit_crew_class_path(crew_class) %></td>
+        <td><%= link_to 'Destroy', crew_class, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Crew class', new_crew_class_path %>

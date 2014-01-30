@@ -1,0 +1,2 @@
+module CrewClassesHelper
+end

@@ -1,4 +1,6 @@
 FirstApp2014::Application.routes.draw do
+  resources :crew_classes
+
   resources :items
 
   # The priority is based upon order of creation: first created -> highest priority.

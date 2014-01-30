@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Item:</strong>
+  <%= @crew_class.item_id %>
+</p>
+
+<p>
+  <strong>Class desc:</strong>
+  <%= @crew_class.class_desc %>
+</p>
+
+<%= link_to 'Edit', edit_crew_class_path(@crew_class) %> |
+<%= link_to 'Back', crew_classes_path %>
