@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  qty: 1
+  location: MyString
+  part_num: MyString
+
+two:
+  name: MyString
+  description: MyString
+  qty: 1
+  location: MyString
+  part_num: MyString
